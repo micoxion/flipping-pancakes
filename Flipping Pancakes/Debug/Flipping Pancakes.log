@@ -1,0 +1,5 @@
+﻿  pancakes.cpp
+C:\Users\msoto3\source\repos\Flipping Pancakes\Flipping Pancakes\pancakes.cpp(11,13): warning C4326:  return type of 'main' should be 'int' instead of 'void'
+C:\Users\msoto3\source\repos\Flipping Pancakes\Flipping Pancakes\pancakes.cpp(21,22): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\msoto3\source\repos\Flipping Pancakes\Flipping Pancakes\pancakes.cpp(45,26): warning C4018:  '<': signed/unsigned mismatch
+  Flipping Pancakes.vcxproj -> C:\Users\msoto3\source\repos\Flipping Pancakes\Debug\Flipping Pancakes.exe

@@ -31,5 +31,6 @@
 *.out
 *.app
 
-#.vs/ folder
+#.vs/ and debug folder
 .vs/*
+Debug/*
