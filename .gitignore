@@ -34,4 +34,6 @@
 #.vs/ and debug folder
 .vs/*
 Debug/*
-
+Release/*
+/Flipping*Pancakes/Debug/*
+/Flipping*Pancakes/Release/*
