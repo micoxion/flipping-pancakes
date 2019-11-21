@@ -7,21 +7,17 @@
 
 using namespace std;
 
-void flip(int, vector<char>&);
+void flip(int, string&);
 
 void main() {
 	ifstream fin("pancakes.in");
 	if (fin.is_open()) {
 		ofstream fout("pancakes.out");
 
-		string pancakes;
-		vector<char> stack;
-		fin >> pancakes;
+		string stack;
+		fin >> stack;
 
-		while (pancakes != "0") {
-			for (int i = 0; i < pancakes.size(); i++) {
-				stack.push_back(pancakes[i]);
-			}
+		while (stack != "0") {
 			flip(0, stack);
 		}
 
@@ -33,7 +29,7 @@ void main() {
 	}
 }
 
-void flip(int flipPos, vector<char>& stack) {
+void flip(int flipPos, string& stack) {
 	string flipped = "";
 	for (int i = stack.size() - 1; i > flipPos - 1; i--) {
 		if (stack[i] > 90) {
