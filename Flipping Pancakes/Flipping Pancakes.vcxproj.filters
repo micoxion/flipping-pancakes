@@ -23,5 +23,13 @@
     <None Include="pancakes.in">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="pancakes.out">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="correct.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

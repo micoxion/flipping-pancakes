@@ -1,0 +1,4 @@
+﻿  pancakes.cpp
+C:\Users\msoto3\source\repos\flipping-pancakes\Flipping Pancakes\pancakes.cpp(15,13): warning C4326:  return type of 'main' should be 'int' instead of 'void'
+C:\Users\msoto3\source\repos\flipping-pancakes\Flipping Pancakes\pancakes.cpp(73,31): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Flipping Pancakes.vcxproj -> C:\Users\msoto3\source\repos\flipping-pancakes\x64\Debug\Flipping Pancakes.exe
